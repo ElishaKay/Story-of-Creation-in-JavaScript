@@ -9,15 +9,14 @@ b) How unique should each instance of a creature be (i.e. Should all monkies lov
 c) How will we categorize our creatures (Species? Sex? Age?)
 d) What is the lowest common denominator[s] of all living creatures?
 
-<img src="_img/creation.png">
-
 This will allow us to dig into some special features of the JavaScript Language, including:
 
 - [Prototypes](#prototypes)
 - [Var / Let / Const](#var-let-or-const)
 - [Classes](#classes)
-- [Classes](#other-projects)
-- [More Good Resources on JavaScript](#more-good-resources-on-javaScript)
+- [Other Projects](#other-projects)
+- [More Good Resources on JavaScript](#more-good-resources-on-javascript)
+
 
 
 
@@ -25,6 +24,9 @@ Prototypes
 --------
 
 Check out the folder in the root directory called "Prototypes". You'll notice 6 JS files there. Each file is meant to portray a different step of the development process.
+
+<img src="_img/creation.png">
+
 
 Step 1: Creating the Constructor Function for Living Things (the Power to Create A Variety of Living Things with varying Characteristics)
 
