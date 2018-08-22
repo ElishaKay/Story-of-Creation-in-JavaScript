@@ -120,3 +120,143 @@ Objects in JS with ES6:
 https://scotch.io/tutorials/better-javascript-with-es6-pt-ii-a-deep-dive-into-classes
 
 
+Ideas for JavaScript Course:
+
+
+Precourse:
+
+Verify that everyone has Github and NodeJS installed and working on their machines.
+
+
+Introduction:
+
+Many introduction to JavaScript courses jump straight into frameworks like Angular and ReactJS - bad move. Here's why:
+
+ - Employers don't care whether you're capable of cloning a React repo and running it on your local machine. They want to know that you understand its parts. In job interviews, you will get tested on ES6 syntax.
+
+- If you don't understand the moving parts, you will get stuck constantly and have to copy-paste code from Stack Overflow - which will work only temporarily (if at all). We're going to make you a strategic player.
+
+
+Key Themes in the Course:
+
+- Functional Programming vs. Object Oriented Programming
+- Webpack (Why do we need it and why are we using it in our projects?)
+
+
+These discussions on key JavaScript Concepts and Design Patterns will give you a firm understanding of vanilla (plain) JavaScript and allow you to shift into more complex subjects like ReactJS Fundamentals.
+
+
+
+Chapter 1: 'The Story of Creation (in JavaScript)'
+
+---> Introduction to Object-Oriented Programming: 
+
+If God was creating the world with the help of JavaScript objects, how should he design Human Beings and other Animals within the Animal Kingdom?
+
+This chapter will give you a great introduction to conceptualizing any new application development project?
+
+The key questions you need to ask yourself when building a new project is:
+
+- What kind of objects will I need to create to get this job done? Will the main objects have children? Which behaviors should the children inherit?
+
+Prototypes: https://github.com/ElishaKay/Story-of-Creation-in-JavaScript#prototypes
+
+
+Chapter 2: The latest features in ES6
+
+----> Introduction to Functional Programming: 
+
+What's Functional Programming? How has it influenced the latest features in ES6? Understanding this will allow you to pick up whatever frameworks come along in the future.
+
+It will also allow you to build a strong understanding of ReactJS - which has been strongly influenced by the Functional Programming Paradigm.
+
+Checkout the Playground for playing with the <a href="https://github.com/ElishaKay/learning-react/tree/master/chapter-02">latest ES6 Features</a> (from the book 'Learning React' by Alex Banks and Eve Porcello, published by O'Reilly Media).
+
+
+
+
+Chapter 3:  Pixabay Project 
+
+In this chapter we'll build a proof of concept for a user interface that interacts with the Pixabay API. We'll create a search interface that will display the results from the API unto the page.
+
+Please note: this <a href="https://github.com/ElishaKay/pixabay-ux/tree/b5c0dfc5611eaae3efeba97591c74692ccc629d1">first version will be unmodular (early commit)</a> - we'll talk about why modularity is important if we want to make it easier for other developers to edit our code and add new features.
+
+We'll also walk through the logic, introduce a bug or two, and search for a solution to those bugs.
+
+
+
+Chapter 4: Pixabay Project - making it modular
+
+In this chapter, we're going to <a href="https://github.com/ElishaKay/pixabay-ux/tree/master/V2">make the project more modular.</a>
+
+We'll continue walking through the logic of the application and including best practices to make our code easy to understand and scalable.
+
+To achieve that, we'll add Webpack to the project (which gives us support for ES6 modules), and allows us to "bundle" our ES6 code to work in any browser.
+
+
+
+
+Chapter 4: NodeJS Server (and Deploying to Heroku)
+
+<a href="https://github.com/ElishaKay/ngtodo">Simplest Possible NodeJS Server</a> for making Get and Post Calls.
+
+- What's NPM?
+- What's Package.json?
+
+
+
+Chapter 5: HTTP Fundamentals 
+
+- why do we need it?
+
+<a href="https://github.com/ElishaKay/Simple-HTTP-Library">Let's play with this library</a> - it uses the Fetch API (built into JavaScript), and Async-Await.
+
+
+Chapter 6: 'Chrome Extension' (Pinterest Bot)
+
+
+In this chapter, we bring together everything we've been learning about so far by building a bot that uses Vanilla JavaScript to interact with the Pinterest Website.
+
+We'll also create a UI for our admins to control the searches that the Pinterest bot performs and see the results from the bot's hard word ;) in one place.
+
+<a href="https://github.com/ElishaKay/pinterest_bot">Full instructions here.</a>
+
+
+
+
+Chapter Content
+
+
+Pixabay Project
+
+Summary: we will cover the essential logic that you will need to go through as you design the Pixabay project. How to make the Images Load, Pagination, and Header - 
+
+Which functions should we call on init?
+Which variables should be global (if any)? What does it mean to 'litter the global scope? And why is it frowned upon?'
+
+
+How do we make the application as modular as possible?
+What's separation of concerns?
+What's a Single-Page-Application and what are it's pros and cons?
+
+
+
+NodeJS Server
+
+
+Simplest Node.js server is just:
+
+$ npm install http-server -g
+Now you can run a server via the following commands:
+
+$ cd MyApp
+
+$ http-server
+
+
+
+
+Other Ideas
+
+While we talk about the pixabay project - we'll be taking advantage of git version control in order to create new branches (with different commits from the public repo)
+
