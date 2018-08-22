@@ -120,15 +120,15 @@ Objects in JS with ES6:
 https://scotch.io/tutorials/better-javascript-with-es6-pt-ii-a-deep-dive-into-classes
 
 
-Ideas for JavaScript Course:
+<h1>Ideas for JavaScript Course</h1>
 
 
-Precourse:
+<h3>Precourse:</h3>
 
 Verify that everyone has Github and NodeJS installed and working on their machines.
 
 
-Introduction:
+<h3>Introduction:</h3>
 
 Many introduction to JavaScript courses jump straight into frameworks like Angular and ReactJS - bad move. Here's why:
 
@@ -147,7 +147,7 @@ These discussions on key JavaScript Concepts and Design Patterns will give you a
 
 
 
-Chapter 1: 'The Story of Creation (in JavaScript)'
+<h3>Chapter 1: 'The Story of Creation (in JavaScript)'</h3>
 
 ---> Introduction to Object-Oriented Programming: 
 
@@ -162,7 +162,7 @@ The key questions you need to ask yourself when building a new project is:
 Prototypes: https://github.com/ElishaKay/Story-of-Creation-in-JavaScript#prototypes
 
 
-Chapter 2: The latest features in ES6
+<h3>Chapter 2: The latest features in ES6</h3>
 
 ----> Introduction to Functional Programming: 
 
@@ -175,7 +175,7 @@ Checkout the Playground for playing with the <a href="https://github.com/ElishaK
 
 
 
-Chapter 3:  Pixabay Project 
+<h3>Chapter 3:  Pixabay Project</h3> 
 
 In this chapter we'll build a proof of concept for a user interface that interacts with the Pixabay API. We'll create a search interface that will display the results from the API unto the page.
 
@@ -185,7 +185,7 @@ We'll also walk through the logic, introduce a bug or two, and search for a solu
 
 
 
-Chapter 4: Pixabay Project - making it modular
+<h3>Chapter 4: Pixabay Project - making it modular</h3>
 
 In this chapter, we're going to <a href="https://github.com/ElishaKay/pixabay-ux/tree/master/V2">make the project more modular.</a>
 
@@ -196,7 +196,7 @@ To achieve that, we'll add Webpack to the project (which gives us support for ES
 
 
 
-Chapter 4: NodeJS Server (and Deploying to Heroku)
+<h3>Chapter 4: NodeJS Server (and Deploying to Heroku)</h3>
 
 <a href="https://github.com/ElishaKay/ngtodo">Simplest Possible NodeJS Server</a> for making Get and Post Calls.
 
@@ -205,14 +205,14 @@ Chapter 4: NodeJS Server (and Deploying to Heroku)
 
 
 
-Chapter 5: HTTP Fundamentals 
+<h3>Chapter 5: HTTP Fundamentals</h3> 
 
 - why do we need it?
 
 <a href="https://github.com/ElishaKay/Simple-HTTP-Library">Let's play with this library</a> - it uses the Fetch API (built into JavaScript), and Async-Await.
 
 
-Chapter 6: 'Chrome Extension' (Pinterest Bot)
+<h3>Chapter 6: 'Chrome Extension' (Pinterest Bot)</h3>
 
 
 In this chapter, we bring together everything we've been learning about so far by building a bot that uses Vanilla JavaScript to interact with the Pinterest Website.
@@ -224,10 +224,10 @@ We'll also create a UI for our admins to control the searches that the Pinterest
 
 
 
-Chapter Content
+<h2>Chapter Content</h2>
 
 
-Pixabay Project
+<h3>Pixabay Project</h3>
 
 Summary: we will cover the essential logic that you will need to go through as you design the Pixabay project. How to make the Images Load, Pagination, and Header - 
 
@@ -241,22 +241,22 @@ What's a Single-Page-Application and what are it's pros and cons?
 
 
 
-NodeJS Server
+<h3>NodeJS Server</h3>
 
 
 Simplest Node.js server is just:
-
+```
 $ npm install http-server -g
 Now you can run a server via the following commands:
 
 $ cd MyApp
 
 $ http-server
+```
 
 
 
-
-Other Ideas
+<h3>Other Ideas</h3>
 
 While we talk about the pixabay project - we'll be taking advantage of git version control in order to create new branches (with different commits from the public repo)
 
